@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  min-height: 200px;
+  background-color: gray;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.frameContainer {
+  display: flex;
+  flex: 1 1 100px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+}
+
+.frame {
+  display: flex;
+  position: relative;
+}
+
+.frameOverlay {
+  display: flex;
+  position: absolute;
+  inset: 0;
+  box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.75);
+}

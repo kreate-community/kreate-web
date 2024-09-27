@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  position: relative;
+
+  &.fill {
+    position: absolute;
+    inset: 0;
+  }
+}
+
+.imageContainer {
+  display: flex;
+}
